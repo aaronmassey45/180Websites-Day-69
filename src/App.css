@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+.btn-toolbar {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.closebutton {
+  cursor: pointer;
+  float: right;
+  font-size: 2em;
+}
+
+.closebutton:hover {
+  color: red;
+  opacity: .8;
+}
+
+.game {
+  background-color: grey;
+  border-bottom: 3px solid gold;
+  border-top: 3px solid gold;
+  margin-top: 2vh;
+  padding: 20px;
+}
+
+.modal-header {
+  background-color: lightgrey;
+  padding: 2px 15px 2px 0;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.rules {
+  border-right: 1px solid white;
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+  margin-top: 10px;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 400px) {
+    .rules {
+        display: none;
+    }
+}
