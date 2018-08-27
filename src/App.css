@@ -20,7 +20,7 @@ body {
 
 .closebutton:hover {
   color: red;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .game {
@@ -54,8 +54,8 @@ body {
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 400px) {
-    .rules {
-        display: none;
-    }
+@media only screen and (max-width: 768px) {
+  .rules {
+    min-height: 100%;
+  }
 }
